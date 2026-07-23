@@ -965,6 +965,9 @@ spec:
       - attributes: {}
         name: read:document
         protocol: openid-connect
+      - attributes: {}
+        name: update:document
+        protocol: openid-connect
       - attributes:
           consent.screen.text: ${samlRoleListScopeConsentText}
           display.on.consent.screen: "true"
